@@ -6,7 +6,6 @@ import Image from "next/image";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -19,9 +18,10 @@ const Projects = () => {
         <a  href={project.link} 
         target="_blank" 
         rel="noopener noreferrer" 
+        key={index}
         className="block">
         <Card
-          key={index}
+          
           className=" group w-full flex flex-row justify-start bg-transparent hover:bg-slate-300 hover:bg-opacity-10 mb-4 text-white border-none"
         >
           <CardHeader className="w-1/4 pr-0 flex justify-start items-start">

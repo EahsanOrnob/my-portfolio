@@ -1,11 +1,10 @@
 import React from "react";
-import thesises from "../public/data/thesis.json"; // Assuming this contains your experiences data
+import thesis from "../public/data/thesis.json"; // Assuming this contains your experiences data
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -15,7 +14,7 @@ const Thesis = () => {
   return (
     <div className="flex flex-1 flex-col text-3xl items-start justify-start w-full min-h-full">
     {/* Experiences */}
-    {thesises.map((thesis, index) => (
+    {thesis.map((thesis, index) => (
      
       <Card
         key={index}
