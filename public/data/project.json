@@ -1,0 +1,27 @@
+[
+    { 
+        "title": "PCICT",
+        "subtitle": "PC Information Collection Tool",
+        "link": "https://bdtmp.ultra-x.jp/pcict/en",
+        "technologies": ["NodeJs", "NextJs", "Javascript", "Typescript"],
+        "images": "/images/pcict.png",
+        "description": "Developed a secure e-commerce platform enabling users to buy, sell, and evaluate used products with efficient APIs, robust backend logic, and seamless data flow, focusing on high performance and secure onboarding."
+    },
+    { 
+        "title": "ETTMS",
+        "subtitle": "Error Trail Tracking Management System",
+        "link": "https://trackdev3.ultra-x.jp/en/login",
+        "technologies": ["NodeJs", "MySQL", "ExpressJS"],
+        "images": "/images/ettms.png",
+        "description": "Developed a secure tracking system for data erasure companies with real-time updates, QR code monitoring, scalable backend, and efficient APIs."
+    },
+    { 
+        "title": "VRT",
+        "subtitle": "Visitor Registration System",
+        "link": "https://bdtmp.ultra-x.jp/vrt/en/login",
+        "technologies": ["NextJs", "Typescript", "Tailwind", "ShedCn"],
+        "images": "/images/vrt.png",
+        "description": "Built a responsive system for event registration, QR-based attendance, and real-time admin dashboard using Tailwind CSS and Shadcn"
+    }
+  
+]
