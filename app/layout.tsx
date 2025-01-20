@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -34,40 +33,3 @@ export default function RootLayout({
     </html>
   );
 }
-=======
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
-export const metadata: Metadata = {
-  title: "JMEO - dev",
-  description: "Jamal Mostafa Eahsan Ornob",
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
-}
->>>>>>> 20164b3e2762eafd1584f03029ccec6bd226be7b
