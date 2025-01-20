@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "extends": [
     "development"
@@ -16,4 +17,24 @@
       }
     ]
   }
+=======
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
+  }
+>>>>>>> 20164b3e2762eafd1584f03029ccec6bd226be7b
 }
