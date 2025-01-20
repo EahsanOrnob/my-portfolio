@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
     { 
         "title": "Classification of Diabetic Retinopathy",
@@ -6,13 +5,4 @@
         "images": "/images/thesis1.png",
         "description": "Our proposed Convolutional Neural Network (CNN) model classifies Diabetic Retinopathy stages, achieving notable accuracy improvements. With an accuracy of 75.87%, our model surpasses the 75.12% of Harry Pratt’s CNN and the 61.27% accuracy of earlier disease-only models. Supervised by Dr. Taskeed Jabid, this model utilizes an optimized multi-layered architecture for enhanced diagnostic performance."
     }
-=======
-[
-    { 
-        "title": "Classification of Diabetic Retinopathy",
-        "technologies": ["CNN", "ReLU Layer", "Dropout Layer", "SGD Optimizer"],
-        "images": "/images/thesis1.png",
-        "description": "Our proposed Convolutional Neural Network (CNN) model classifies Diabetic Retinopathy stages, achieving notable accuracy improvements. With an accuracy of 75.87%, our model surpasses the 75.12% of Harry Pratt’s CNN and the 61.27% accuracy of earlier disease-only models. Supervised by Dr. Taskeed Jabid, this model utilizes an optimized multi-layered architecture for enhanced diagnostic performance."
-    }
->>>>>>> 20164b3e2762eafd1584f03029ccec6bd226be7b
 ]
