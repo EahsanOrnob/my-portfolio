@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 const profile = () => {
   return (
     <div className=" flex flex-col gap-12 ">

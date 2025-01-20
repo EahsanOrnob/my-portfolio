@@ -14,6 +14,7 @@ const Footer = () => {
             className=" max-h-8 max-w-12 flex items-center"
             target="_blank"
             rel="noopener noreferrer"
+            key={index}
             href={technology.link}
           >
             <Image
