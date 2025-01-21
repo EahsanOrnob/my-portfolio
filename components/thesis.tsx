@@ -1,21 +1,20 @@
 import React from "react";
-import thesises from "../public/data/thesis.json"; // Assuming this contains your experiences data
+import theses from "../public/data/thesis.json"; // Assuming this contains your experiences data
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 
-const Thesis = () => {
+const Theses = () => {
   return (
     <div className="flex flex-1 flex-col text-3xl items-start justify-start w-full min-h-full">
     {/* Experiences */}
-    {thesises.map((thesis, index) => (
+    {theses.map((thesis, index) => (
      
       <Card
         key={index}
@@ -40,7 +39,7 @@ const Thesis = () => {
                {thesis.description}
           </CardContent>
           <CardFooter className="flex flex-row gap-2 flex-wrap">
-            {thesis.technologies.map((technology, technologyIndex) => (
+            {thesis.technologies.map((technology: string, technologyIndex:number) => (
               <Badge
                 key={technologyIndex}
                 variant="outline"
@@ -58,4 +57,4 @@ const Thesis = () => {
   )
 }
 
-export default Thesis
+export default Theses

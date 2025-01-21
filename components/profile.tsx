@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 const profile = () => {
   return (
     <div className=" flex flex-col gap-12 ">
@@ -34,8 +34,8 @@ const profile = () => {
         >
           Projects
         </a>
-        <a href="#Theses" className="text-gray-400 hover:text-gray-200 text-sm">
-          Theses
+        <a href="#thesis" className="text-gray-400 hover:text-gray-200 text-sm">
+          thesis
         </a>
         <a
           href="#achievement"

@@ -4,7 +4,7 @@ import Achievement from "@/components/achievement";
 import Experience from "@/components/experience";
 import Footer from "@/components/footer";
 import Projects from "@/components/projects";
-import Thesis from "@/components/thesis";
+import Theses from "@/components/thesis";
 
 export default function Home() {
   return (
@@ -32,9 +32,9 @@ export default function Home() {
           <Projects/>
         </section>
         <section
-          id="Theses"
+          id="thesis"
         >
-          <Thesis/>
+          <Theses />
         </section>
         <section
           id="achievement"
