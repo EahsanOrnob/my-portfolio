@@ -1,3 +1,6 @@
+
+"use client";
+
 import Profile from "@/components/profile";
 import About from "@/components/about";
 import Achievement from "@/components/achievement";
