@@ -57,7 +57,7 @@ const Profile = () => {
                 : "text-gray-400 hover:text-gray-200"
             }`}
           >
-           <p className=" hidden group-hover:block">→</p> {link.label}
+           <p className="hidden group-hover:block">→</p> {link.label}
           </a>
         ))}
       </div>
