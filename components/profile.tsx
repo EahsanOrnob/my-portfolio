@@ -51,13 +51,13 @@ const Profile = () => {
           <a
             key={link.id}
             href={link.href}
-            className={`text-sm flex flex-row gap-2 cursor-pointer ${
+            className={`group text-sm flex flex-row gap-2 cursor-pointer ${
               currentHash === link.id
                 ? "text-gray-200"
                 : "text-gray-400 hover:text-gray-200"
             }`}
           >
-            {link.label}
+           <p className=" hidden group-hover:block">→</p> {link.label}
           </a>
         ))}
       </div>
